@@ -1,0 +1,46 @@
+.nav {
+  padding: 1% 5%;
+  background-color: #5b0017;
+  font-family: "Source Serif 4", serif;
+  background-image: url(../../assets/images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: 45% 800px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_links{
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  padding-top: 30px;
+}
+.nav_links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+}
+.nav_bt {
+  display: flex;
+  align-items: center;
+}
+.nav_bt button {
+  padding: 10px 20px;
+  background-color: #cc9d2f;
+  color: #5b0017;
+  font-size: 20px;
+  height: 50px;
+  transform: translateY(-30px);
+  cursor: pointer;
+  border-color: transparent;
+}
+button:hover,
+a:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.nav_bt img {
+  height: 60px;
+  transform: translateY(-30px);
+}
