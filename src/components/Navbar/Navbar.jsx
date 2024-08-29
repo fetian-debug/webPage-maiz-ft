@@ -1,6 +1,7 @@
 import logo from "../../assets/images/logo.svg";
 import tree from "../../assets/images/tree.svg";
 import Style from "./navbar.module.css";
+import { Link } from "react-router-dom";
 
 export default function navbar() {
   return (
@@ -11,13 +12,13 @@ export default function navbar() {
           <img className="logo" src={logo} alt="logo" />
         </a>
         <div className={Style.nav_links}>
-          <a href="about.html">About</a>
-          <a href="menu.html">Menu</a>
-          <a href="#">Venue</a>
-          <a href="#">Events</a>
+        <li data-aos="fade-right"><Link to="/about">About</Link></li>
+        <li data-aos="fade-right"><Link to="#">Menu</Link></li>
+        <li data-aos="fade-right"><Link to="#">Venue</Link></li>
+        <li data-aos="fade-right"><Link to="#">Venue</Link></li>
         </div>
         <div className={Style.nav_bt}>
-          <button>Book Now</button>
+          <button className={Style.booking}>Book Now</button>
           <img src={tree}alt="logo tree" />
         </div>
       </nav>

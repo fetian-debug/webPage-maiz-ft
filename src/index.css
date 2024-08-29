@@ -25,98 +25,11 @@ body {
   font-family: "CotorisBold";
 }
 
-.button {
-  background: none;
-  border: 2px solid var(--secondary);
-  color: var(--primary);
-  background-color: var(--secondary);
-  padding: 6px 6px;
-  border-radius: 2px;
-  text-transform: uppercase;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
-  display: inline;
-  font-size: 1em;
-}
+
 /* fonts */
 @font-face {
   font-family: "CotorisBold";
   src: url("assets/fonts/cotorisbold.ttf") format("ttf");
 }
 
-h1,
-h2,
-h3,
-h4 {
-  color: #ffffff;
-  font-weight: normal;
-  line-height: 1.4em;
-}
-p,
-a,
-li {
-  color: #ffffff;
-  line-height: 1.4em;
-  font-size: 1em;
-}
-h1,
-h3 {
-  font-size: 1.2em;
-}
-h2 {
-  font-size: 1.6em;
-}
-h4 {
-  font-size: 1.1em;
-}
-.leading {
-  font-size: 1.1em;
-}
-/* mobile styles */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-}
-.site-nav {
-  margin: 0 20px;
-}
-.site-nav ul {
-  display: none;
-}
 
-#logo{
-    grid-column: 1/4;
-    width: 100.72px;
-    height: 154.07px;
-    margin-top: 45px;
-   
-}
-#booking {
-  grid-column: 6/9;
-  position: relative;
-  margin-top: 35px;
-  margin-right: 20px;
-}
-#booking .button{
-position: absolute;
-right: 4.75%;
-top: 21.11%;
-bottom: 47.24%;
-width: 171px;
-height: 63px;
-
-}
-#booking img {
-  width: 39.37px;
-  height: 76.98px;
-  position: absolute;
-  left: 95.25%;
-  right: 2.12%;
-  top: 17.59%;
-  bottom: 43.73%;
-}
-
-/* small tablet styles */
-
-/* large tablet & laptop styles  */
-
-/* desktop styles */
