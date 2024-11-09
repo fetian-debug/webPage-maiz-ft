@@ -26,7 +26,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/fetian-debug/Maiz.git
+   git clone https://github.com/fetian-debug/webPage-maiz-ft
    cd Maiz
    
 2. **Install Dependencies:**
